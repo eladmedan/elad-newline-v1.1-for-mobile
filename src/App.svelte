@@ -32,7 +32,7 @@
   import Preloader from "./lib/1.1/helpers/Preloader.svelte";
 
   let w;
-  $: isMobile = w < 480;
+  $: isMobile = false;
 </script>
 
 <svelte:head>
