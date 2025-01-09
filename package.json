@@ -1,0 +1,34 @@
+{
+  "name": "elad-newline-v2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "t": "node translation",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "zip": "node zip"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^2.0.1",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.7",
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@lottiefiles/svelte-lottie-player": "^0.2.0",
+    "marked": "^4.2.12",
+    "move-file": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.1",
+    "svelte-range-slider-pips": "^2.0.3",
+    "vite": "^5.4.6",
+    "webgazer": "^3.0.0",
+    "zip-a-folder": "^1.1.3"
+  }
+}

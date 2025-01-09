@@ -1,0 +1,15 @@
+export default {
+    en: {
+      "homepage.title": "New Line",
+      "homepage.by": "By Elad Madan | 2023",
+      "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
+      "homepage.time": "The current time is: {{time}}",
+    },
+    he: {
+      "homepage.title": "שורה חדשה",
+      "homepage.by": "פותח ע\"י אלעד מדן | 2023",
+      "homepage.welcome": "Hola, <strong>{{name}}</strong>, ¿cómo estás?",
+      "homepage.time": "La hora actual es: {{time}}",
+    },
+  };
+  
