@@ -87,9 +87,9 @@
     {/if}
     {#if $currentPage === "book" && !$isTopNavOpen}
       <Book />
-      <SideNavigationArrows />
+      <!-- <SideNavigationArrows /> -->
       <!-- <TopHeader /> -->
-      <BottomNav />
+      <!-- <BottomNav /> -->
       <ProgressBar />
       <CalibrationSuccessBanner />
       <Activeness />
