@@ -264,6 +264,7 @@
     left: 0;
   }
   #debug-data {
+    overflow: hidden;
     display: block;
     font-family: monospace;
     direction: ltr;
