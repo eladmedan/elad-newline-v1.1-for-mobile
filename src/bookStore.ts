@@ -8,7 +8,8 @@ if (!isProduction) {
 } else {
   console.log("Production Mode");
 }
-export let debugMode = writable(isProduction ? false : true);
+// export let debugMode = writable(isProduction ? false : true);
+export let debugMode = true;
 
 interface Chapter {
   number: string;
@@ -46,7 +47,7 @@ export const book: Readable<Book> = derived(t, ($t) => {
       return chapter;
     }),
   };
-  
+
   console.log("_book", _book);
 
   return _book;
