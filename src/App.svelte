@@ -97,7 +97,7 @@
   {/if}
 </Controller>
 
-{#if !isMobile}
+<!-- {#if !isMobile}
   {#if $debugMode}
     <Debugger />
   {/if}
@@ -105,7 +105,7 @@
   <Shortcuts />
   <LoadFromLocalStorage />
   <Fader />
-{/if}
+{/if} -->
 
 <style lang="scss">
   :root {
