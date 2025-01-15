@@ -16,7 +16,7 @@ export type Pages =
 export const currentPage: Writable<Pages> = writable(
   // isPrduction ? "welcome" : "book"
   // "welcome"
-  "calibration"
+  "introduction"
 );
 
 export const isTopNavOpen = writable(
