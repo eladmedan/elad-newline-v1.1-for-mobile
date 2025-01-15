@@ -62,8 +62,8 @@
   {:else if $currentPage === "denied"}
     <PleaseAllowCamera />
   {:else}
-    <Header />
-    <TopNav />
+    <!-- <Header />
+    <TopNav /> -->
     <AutohideCursor />
     <Preloader />
 
