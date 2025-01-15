@@ -13,10 +13,10 @@ export type Pages =
   | "help"
   | "denied";
 
-
 export const currentPage: Writable<Pages> = writable(
   // isPrduction ? "welcome" : "book"
-  "welcome"
+  // "welcome"
+  "introduction"
 );
 
 export const isTopNavOpen = writable(
