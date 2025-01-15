@@ -265,6 +265,7 @@
   }
   #debug-data {
     overflow: hidden;
+    height: 100vh;
     display: block;
     font-family: monospace;
     direction: ltr;
